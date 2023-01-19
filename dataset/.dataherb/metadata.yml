@@ -1,0 +1,15 @@
+name: 'Planets in the Solar System'
+description: 'List of the 8 planets in the solar system and their properties'
+contributors:
+- name: 'Professor Ming Ching Chang of University at Albany'
+data:
+- name: 'training attributes with classifiers in txt format'
+  description: 'Columns 1-10 are attributes and column 11 contains classifiers'
+  format: 'txt'
+  path: 'dataset/train.txt'
+  size: '3KB'
+- name: 'testing attributes with classifiers in txt format'
+  description: 'Columns 1-10 are attributes and column 11 contains classifiers'
+  format: 'txt'
+  path: 'dataset/test2.txt'
+  size: '1KB'
