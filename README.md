@@ -3,7 +3,7 @@
 
 ![GitHub Pipenv locked Python version](https://img.shields.io/github/pipenv/locked/python-version/dlamotto/decision-tree-split-prediction)
 
-This project is a Python script that uses decision tree algorithms to predict the best split for a given test dataset. 
+This project is a Python script that uses decision tree algorithms to predict the best split for the given test dataset. 
 
 
 
