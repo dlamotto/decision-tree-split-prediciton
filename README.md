@@ -23,21 +23,16 @@ Install best_split_decision_tree with pip
     
 ## Examples
 
+```bash
+$ python -m best_split_decision_tree
+#or
+$ best_split_decision_tree
+
+```
 ```python
-import best_split_decision_tree 
+from best_split_decision_tree import main()
 
-training_set = load('training_data.txt')
-
-test_set = load('test_data.txt')
-
-# returns a list of predicted classifiers for observations in test data using Information Gain classification
-best_split_decision_tree.classifyIG(training_set, test_set)
-
-# returns a list of predicted classifiers for observations in test data using Gini Index classification
-best_split_decision_tree.classifyG(training_set, test_set)
-
-# returns a list of predicted classifiers for observations in test data using CART classification
-best_split_decision_tree.classifyCART(training_set, test_set)
+main()
 
 ```
 
