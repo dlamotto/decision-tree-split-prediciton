@@ -1,5 +1,5 @@
-name: 'Planets in the Solar System'
-description: 'List of the 8 planets in the solar system and their properties'
+name: 'Example data'
+description: 'Data with 10 columns of attributes and the last column containing a classifier of either 0 or 1'
 contributors:
 - name: 'Professor Ming Ching Chang of University at Albany'
 data:
